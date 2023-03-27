@@ -6,4 +6,6 @@ public interface FabricaMovel {
     Movel criarCadeira();
 
     Movel criarMesa();
+
+    Movel criarArmario();
 }

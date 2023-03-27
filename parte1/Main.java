@@ -10,13 +10,17 @@ public class Main {
         FabricaMovel fabricaMovelMadeira = new FabricaMovelMadeira();
         Movel cadeiraMadeira = fabricaMovelMadeira.criarCadeira();
         Movel mesaMadeira = fabricaMovelMadeira.criarMesa();
+        Movel armarioMadeira = fabricaMovelMadeira.criarArmario();
         cadeiraMadeira.montar();
         mesaMadeira.montar();
+        armarioMadeira.montar();
 
         FabricaMovel fabricaMovelMetal = new FabricaMovelMetal();
         Movel cadeiraMetal = fabricaMovelMetal.criarCadeira();
         Movel mesaMetal = fabricaMovelMetal.criarMesa();
+        Movel armarioMetal = fabricaMovelMetal.criarArmario();
         cadeiraMetal.montar();
         mesaMetal.montar();
+        armarioMetal.montar();
     }
 }
